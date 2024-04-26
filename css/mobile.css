@@ -1,0 +1,52 @@
+/* header */
+@media(max-width:481px) {
+    .main_header {
+        padding: 28px 20px;
+
+    }
+
+    .header_imgs {
+        column-gap: 16px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_right {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 480px;
+    }
+
+    .section1_title,
+    span {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:321px) {
+    .main_header {
+        padding: 28px 8px;
+
+    }
+
+    .header_imgs {
+        column-gap: 16px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 480px;
+    }
+
+    .section1_title,
+    span {
+        font-size: 24px;
+    }
+}

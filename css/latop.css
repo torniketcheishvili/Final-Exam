@@ -1,0 +1,20 @@
+/* header */
+@media (max-width:1025px) {
+    .main_header {
+        padding: 16px 45px;
+
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 560px;
+    }
+}

@@ -1,0 +1,13 @@
+/* header */
+@media (max-width:745px) {
+
+    .main_header {
+        padding: 16px 32px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 480px;
+    }
+    
+}
