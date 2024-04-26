@@ -9,5 +9,9 @@
     .section1 {
         height: 480px;
     }
-    
+
+    /* section2 */
+    .section2 {
+        padding: 48px 32px;
+    }
 }

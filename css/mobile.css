@@ -28,6 +28,21 @@
     span {
         font-size: 24px;
     }
+
+    /* section2 */
+
+    .section2_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .line {
+        width: 156px;
+    }
+
+    .section2 {
+        padding: 32px 20px;
+    }
 }
 
 @media(max-width:321px) {
@@ -42,11 +57,17 @@
 
     /* section1 */
     .section1 {
-        height: 480px;
+        height: 320px;
+
     }
 
     .section1_title,
     span {
         font-size: 24px;
+    }
+
+    /* section2 */
+    .section2 {
+        padding: 32px 8px;
     }
 }

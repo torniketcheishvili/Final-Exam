@@ -1,21 +1,35 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
+    padding-top: 96px;
 }
 
 /* header */
 .main_header {
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #012426;
     display: flex;
     padding: 16px 94px;
     justify-content: space-between;
     align-items: center;
+
+
+}
+
+.burger {
+    display: none;
+    font-size: 32px;
+    color: #05BCCA;
 }
 
 .header_ul {
     display: flex;
     column-gap: 72px;
-
 }
 
 .header_li a {
@@ -29,12 +43,6 @@
 .header_imgs {
     display: flex;
     column-gap: 32px;
-}
-
-.burger {
-    display: none;
-    font-size: 32px;
-    color: #05BCCA;
 }
 
 /* section1 */
@@ -68,10 +76,10 @@ span {
     color: #05BCCA;
 }
 
-button {
+.section1_button {
     width: 36px;
     height: 24px;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 4px;
     border: none;
     background-color: #C46A2B;
     margin: 78px 0 0 24px;
@@ -85,7 +93,16 @@ button {
 /* section2 */
 .section2 {
     background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 94px;
+    height: 716px;
+}
 
+.section2_title_div {
+    padding-bottom: 64px;
 }
 
 .section2_title {
@@ -94,34 +111,50 @@ button {
     font-weight: 700;
     line-height: 52px;
     color: #05BCCA;
-    display: flex;
-    justify-content: center;
-
 }
 
 .line {
     border: 2px solid #05BCCA;
     width: 187px;
-    margin: auto;
 }
 
 .cards {
     display: flex;
     column-gap: 28px;
-    justify-content: center;
-
+    width: 100%;
+    object-fit: cover;
 }
 
-.card1,
-.card2,
-.card3,
-.card4 {
+.div_card {
     background-color: #2C4246;
-    width: 298px;  
-   
-   
+
 }
 
-.cards_1 { display: flex;
-    flex-direction: column;
-    align-items: center;}
+.cards_1 {
+    padding: 8px;
+}
+
+.section2_card_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #D9D9D9;
+    padding-left: 8px;
+}
+
+.price {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #05BCCA;
+}
+
+.price_div {
+    display: flex;
+    column-gap: 136px;
+    padding: 16px 8px;
+}
+
+/* footer */
