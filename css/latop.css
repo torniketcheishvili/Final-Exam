@@ -22,29 +22,21 @@
 
     /* section2 */
     .section2 {
-        padding: 96px 45px;
+        padding: 96px 0 96px 45px;
     }
 
-
-
-}
-
-@media (max-width:1371px) {
-
-    /* section2 */
     .cards {
         overflow-x: scroll;
 
     }
 
     .div_card {
-        flex: 1 0 300px;
+        flex: 1 0 298px;
     }
-}
-/* footer */
-@media (max-width:1077px){
-  .header_footer{
-    padding: 48px 98px;
-  }  
-}
 
+    /* about */
+    .about_section {
+        padding: 96px 45px;
+    }
+
+}

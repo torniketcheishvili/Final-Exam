@@ -41,7 +41,17 @@
     }
 
     .section2 {
+        padding: 32px 0 32px 20px;
+    }
+    /* about */
+    .about_section{
         padding: 32px 20px;
+    }
+    .filter{
+        display: none;
+    }
+    .best_selling{
+        display: none;
     }
 }
 
@@ -68,6 +78,10 @@
 
     /* section2 */
     .section2 {
+        padding: 32px 0 32px 8px;
+    }
+    /* about */
+    .about_section{
         padding: 32px 8px;
     }
 }
